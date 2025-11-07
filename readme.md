@@ -1,3 +1,3 @@
-#sveltekit  
+# sveltekit  
 ## demo  
->netlifyへのデプロイ手順を確認する
+> netlifyへのデプロイ手順を確認する
