@@ -1,8 +1,15 @@
 <script lang="ts">
 	import Header from './Header.svelte';
 	import '../app.css';
-
 	let { children } = $props();
+	/*
+    import { onNavigate } from '$app/navigation';
+	onNavigate(()=>{
+		if (!document.startViewTransition){
+			return new Promise
+		}
+	})
+*/
 </script>
 
 <div class="app">
