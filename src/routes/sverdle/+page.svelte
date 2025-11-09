@@ -58,9 +58,7 @@
 	 */
 	function update(event: MouseEvent) {
 		event.preventDefault();
-		const key = (event.target as HTMLButtonElement).getAttribute(
-			'data-key'
-		);
+		const key = (event.target as HTMLButtonElement).getAttribute('data-key');
 
 		if (key === 'backspace') {
 			currentGuess = currentGuess.slice(0, -1);
@@ -196,6 +194,17 @@
 		}}
 	></div>
 {/if}
+<p></p>
+<hr />
+<div class="center">
+	<iframe
+		width="450"
+		height="600"
+		src="https//youtube.com/shorts/weOCWOD2UIo?si=Tb_lEZ3h_Xv241KJ"
+		frameborder="0"
+		allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+	></iframe>
+</div>
 
 <style>
 	form {
@@ -208,7 +217,14 @@
 		gap: 1rem;
 		flex: 1;
 	}
-
+	.center {
+		margin: auto;
+	}
+	.frame {
+		width: 450;
+		height: 600;
+		border: 1px #ff0000 solid;
+	}
 	.how-to-play {
 		color: var(--color-text);
 	}
